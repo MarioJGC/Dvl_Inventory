@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data>
+    
+        <menuitem id="inventory_menu_root" name="Inventario"/>
+        <menuitem id="inventory_menu_category" name="Productos" parent="inventory_menu_root" sequence="1"/>
+        <menuitem id="inventory_menu_action" name="Lista de Productos" action="inventory_product_action_view" parent="inventory_menu_category" sequence="1"/>
+    </data>
+    
+</odoo>
+
